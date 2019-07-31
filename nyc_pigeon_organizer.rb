@@ -4,4 +4,5 @@ def nyc_pigeon_organizer(data)
     value.each do |newValue, names|
       names.each do |name|
         if !myHash[name]
+          myHash
 end
