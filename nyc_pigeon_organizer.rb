@@ -5,4 +5,6 @@ def nyc_pigeon_organizer(data)
       names.each do |name|
         if !myHash[name]
           myHash[name] = {}
+        end
+        
 end
