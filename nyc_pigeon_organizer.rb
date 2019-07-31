@@ -7,5 +7,6 @@ def nyc_pigeon_organizer(data)
           myHash[name] = {}
         end
         
-        if !myHash
+        if !myHash[name][key]
+          myHash[name][key] = []
 end
