@@ -11,5 +11,5 @@ def nyc_pigeon_organizer(data)
           myHash[name][key] = []
         end
         
-        myHash
+        myHash[name][key]
 end
