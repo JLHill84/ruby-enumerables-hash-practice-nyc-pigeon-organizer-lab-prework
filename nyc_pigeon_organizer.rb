@@ -7,5 +7,5 @@ def nyc_pigeon_organizer(data)
           myHash[name] = {}
         end
         
-        
+        if !myHash
 end
